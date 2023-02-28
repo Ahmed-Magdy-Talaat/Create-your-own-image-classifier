@@ -54,7 +54,7 @@ def main():
     steps = 0
     running_loss = 0
     print_every = 5
-    print("--Training starting--")
+    print("--Training Starting--")
     for epoch in range(epochs):
         for inputs, labels in trainloader:
             # Move input and label tensors to the default device
