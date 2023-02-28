@@ -48,6 +48,7 @@ def main():
         print("{} with a probability of {}".format(labels[i], prob[i]))
         g += 1
     print("Finished Predicting!")
+    mm=10
 
     
 if __name__== "__main__":
